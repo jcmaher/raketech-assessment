@@ -1,2 +1,2 @@
 # raketech-assessment
-Raketech assessment is bring in an api via json file and displaying that data through the plugin
+Brings in an api url via json file and displaying that data through the plugin
