@@ -1,3 +1,75 @@
 /*----------------- 
 Backend related CSS
 -----------------*/
+
+/* GENERAL STYLE */
+body {
+	font-family: Arial;
+	padding: 72px 64px;
+	overflow-x: hidden;
+}
+
+.access-text {
+	display: inline-block;
+    height: 0.01em;
+    width: 0.01em;
+    overflow: hidden;
+    position: absolute;
+}
+
+.button {
+  background-color: #008000; /* Green */
+  color: white;
+  padding: 16px 32px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.button:hover {
+	 background-color: #ddd;
+	 color:#008000;
+}
+
+
+/* TABLE COMPONENT */
+.outer-component {
+	max-width: 100%;
+	display: block;
+	overflow-x: scroll;
+}
+.outer-component table {
+	margin: auto;
+	border-collapse: collapse;
+}
+.outer-component table thead tr th {
+	padding: 24px;
+	background: #daa520;
+	color: #000000;
+}
+.outer-component table tbody tr td {
+	padding: 24px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.outer-component table tr a {
+	padding-top: 16px;
+	display: inline-block;
+	width: auto;
+}
+.outer-component table tr a:hover {
+	text-decoration: none;
+}
+.outer-component table tbody tr td ul {
+	display: block;
+	text-align: left;
+}
+.outer-component table tbody tr td ul li {
+	padding: 6px 0px;
+}
+.outer-component table tbody tr td .rating-stars {
+	color: #996515;
+}
